@@ -8,7 +8,7 @@ This script solves that problem by recording device's events like touch event, i
 ### Setup
  
 * You need to enable USB debugging mode.
-* Make sure your `adb` can work
+* Make sure your `adb` can work (if you're on windows, please download 'adb.exe', 'AdbWinApi.dll' and 'AdbWinUsbApi.dll' here: https://dl.google.com/android/repository/platform-tools-latest-windows.zip )
 * Clone this project or download the python files
 ```
 git clone https://github.com/tzutalin/adb-event-record.git
