@@ -5,10 +5,12 @@ During Android development you often want to record or reproduce some issues or 
 
 This script solves that problem by recording device's events like touch event, input event, and etc. Thus, you can use this script to play the recorded events back to do the repeated steps atuomatically. 
 
+The original version works on linux/macOS only, the windows version should works on 32 bits and 64 bits without any issues. However, the windows seems a lot slower, and also doesn't record all events, like some taps on the screen, and physical buttons presses. The windows require the `adb.exe` binary (link below).
+
 ### Setup
  
 * You need to enable USB debugging mode.
-* Make sure your `adb` can work (if you're on windows, please download 'adb.exe', 'AdbWinApi.dll' and 'AdbWinUsbApi.dll' here: https://dl.google.com/android/repository/platform-tools-latest-windows.zip )
+* Make sure your `adb` can work (if you're on windows, please download `adb.exe`, `AdbWinApi.dll` and `AdbWinUsbApi.dll` here: https://dl.google.com/android/repository/platform-tools-latest-windows.zip )
 * Clone this project or download the python files
 ```
 git clone https://github.com/tzutalin/adb-event-record.git
